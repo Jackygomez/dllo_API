@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "consumir_api",
+            "cwd": "consumir_api",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "consumir_api (profile mode)",
+            "cwd": "consumir_api",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "consumir_api (release mode)",
+            "cwd": "consumir_api",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
