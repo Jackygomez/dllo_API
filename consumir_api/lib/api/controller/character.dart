@@ -17,6 +17,11 @@ class Character {
     this.series = series;
     this.stories = stories;
     this.events = events;
-    this.tres_primeras_series = tres_primeras_series;
+    if (series == 0) {
+      this.tres_primeras_series = "NO Contiene Series";
+    } else {
+      this.tres_primeras_series =
+        tres_primeras_series.take(3).map((e) => e['name']);
+    }
   }
 }

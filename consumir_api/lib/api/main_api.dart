@@ -22,11 +22,6 @@ class _MainAppMarvel extends State<MainAppMarvel> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Marvel", style: TextStyle(fontSize: 25 ),),
-        backgroundColor: Colors.red,
-        centerTitle: true,
-      ),
       body: pages[currentlyIndex],
       bottomNavigationBar: Theme(
         data: Theme.of(context).copyWith(),
@@ -37,11 +32,11 @@ class _MainAppMarvel extends State<MainAppMarvel> {
           items: const [
             BottomNavigationBarItem(
               label: "Inicio",
-              icon: Icon(Icons.home, color: Colors.red,),
+              icon: Icon(Icons.home, color: Colors.purple,),
             ),
             BottomNavigationBarItem(
-              label: "Personajes",backgroundColor:Colors.red,
-              icon: Icon(Icons.people, color: Colors.red,),
+              label: "Personajes",backgroundColor:Colors.purple,
+              icon: Icon(Icons.people, color: Colors.purple,),
             )
           ],
         ),
